@@ -1,0 +1,10 @@
+variable "instance_count" {}
+variable "instance_type" {}
+variable "ami_id" {}
+variable "subnet_id" {}
+variable "key_namepair_bastion" {}
+variable "bastion_sg_instance" {}
+variable "subnet_id_private" {}
+variable "application_server_sg_instance" {}
+variable "instance_name_1" {}
+variable "instance_name_2" {}
